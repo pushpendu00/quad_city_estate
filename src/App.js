@@ -4,6 +4,7 @@ import { Navbar } from "./shared/Navbar";
 import { Footer } from "./shared/Footer";
 import { Services } from "./router/Services";
 import {ServicesEach} from './router/ServicesEach'
+import { ServicesCategory } from "./router/ServicesCategory";
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/services" element={<Services />} />
             <Route path="services/:item?" element={<ServicesEach />} />
+            <Route path="services/:item?/:item?" element={<ServicesCategory />} />
             <Route path="*" element={<Navigate to={'/'}/>} />
           </Routes>
       </div>

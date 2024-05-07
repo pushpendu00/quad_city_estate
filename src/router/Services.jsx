@@ -13,7 +13,7 @@ export const Services = () => {
                 <span>Wellcome</span>
                 <span>&nbsp;To</span>
                 <span>&nbsp;Our</span>
-                <span>&nbsp;Servises</span>
+                <span>&nbsp;Services</span>
             </div>
             <div className='w-0 md:w-full border-b-[1px] border-black'></div>
         </header>
@@ -30,7 +30,7 @@ export const Services = () => {
                                         {item.title}
                                     </div>
                                     <div className='w-full'>
-                                        <NavLink className='px-5 py-2 rounded-md bg-[rgb(60,90,255)]'>Explore</NavLink>
+                                        <NavLink to={`/services/${service.nick_title}/${item.nick_title}`} className='px-5 py-2 rounded-md bg-[rgb(60,90,255)]'>Explore</NavLink>
                                     </div>
                             </div>
                         ))}

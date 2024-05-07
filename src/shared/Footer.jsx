@@ -8,10 +8,10 @@ export const Footer = () => {
         <div className="w-[90%] mb-5 flex flex-wrap gap-5 justify-around">
           {/* <h3 className="text-lg font-semibold mb-4">Quick Links</h3> */}
             <ul className="space-y-2">
-                <li><a className='hover:text-[#d9d9d9] cursor-pointer' href="#Home">Home</a></li>
-                <li><a className='hover:text-[#d9d9d9] cursor-pointer' href="#Service">Our Servise</a></li>
-                <li><a className='hover:text-[#d9d9d9] cursor-pointer' href="#About-Us">About Us</a></li>
-                <li><a className='hover:text-[#d9d9d9] cursor-pointer' href="#Projects">Our Projects</a></li>
+                <li><a className='hover:text-[#d9d9d9] cursor-pointer' href="/#Home">Home</a></li>
+                <li><a className='hover:text-[#d9d9d9] cursor-pointer' href="/#Service">Our Servise</a></li>
+                <li><a className='hover:text-[#d9d9d9] cursor-pointer' href="/#About-Us">About Us</a></li>
+                {/* <li><a className='hover:text-[#d9d9d9] cursor-pointer' href="#Projects">Our Projects</a></li> */}
             </ul>
 
             <ul className="space-y-2">

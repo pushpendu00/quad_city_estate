@@ -1,4 +1,4 @@
-import { Icon } from '@iconify/react/dist/iconify.js'
+
 import React from 'react';
 import {services} from '../../utils/service';
 import { NavLink } from 'react-router-dom';
@@ -45,7 +45,7 @@ export const Services = () => {
                         <div className='py-2 text-2xl font-serif'>
                             {service.title}
                         </div>
-                        <div className='w-full mb-5 line-clamp-2'>
+                        <div className='w-full mb-5 text-justify line-clamp-2'>
                             {service.content}
                         </div>
                         <div className='w-full'>

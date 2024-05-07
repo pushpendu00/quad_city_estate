@@ -32,11 +32,23 @@ export const services = [
         cover_photo : 'Construction/construcion-default.jpg',
         category :[
             {
-                title : 'Flat',
-                content : '',
-                cover_photo : 'Construction/flat/flat.jpg',
+                title : 'Apartments',
+                nick_title : 'apartments',
+                content : 'The Paragraphs module in Drupal provides editors with a component driven architecture for building pages. Morpht has been developing Paragraph approaches to site building since 2015. This case study captures some of the content from a Drupal 7 "Paragraphs Demo" site which was built to showcase what could be done with Paragraphs.',
+                cover_photo : 'Construction/Apartments/apartments.jpg',
                 photos : [
-
+                    {
+                        url : "Construction/Apartments/p1.jpg"
+                    },
+                    {
+                        url : "Construction/Apartments/p2.jpg"
+                    },
+                    {
+                        url : "Construction/Apartments/p3.jpg"
+                    },
+                    {
+                        url : "Construction/Apartments/p4.jpg"
+                    }
                 ]
             }
         ],
@@ -94,104 +106,108 @@ export const services = [
         category :[
             {
                 title : 'Vegetable',
-                content : '',
+                nick_title : 'vegetavle',
+                content : 'The Paragraphs module in Drupal provides editors with a component driven architecture for building pages. Morpht has been developing Paragraph approaches to site building since 2015. This case study captures some of the content from a Drupal 7 "Paragraphs Demo" site which was built to showcase what could be done with Paragraphs.',
                 cover_photo : 'import_export/vegetable/vegetables.jpg',
                 photos : [
                     {
                         url : "import_export/vegetable/p1.jpg"
                     },
                     {
-                        url : "import_export/vegetable/p1.jpg"
+                        url : "import_export/vegetable/p2.jpg"
                     },
                     {
-                        url : "import_export/vegetable/p1.jpg"
+                        url : "import_export/vegetable/p3.jpg"
                     },
                     {
-                        url : "import_export/vegetable/p1.jpg"
+                        url : "import_export/vegetable/p4.jpg"
                     },
                     {
-                        url : "import_export/vegetable/p1.jpg"
+                        url : "import_export/vegetable/p5.jpg"
                     },
                     {
-                        url : "import_export/vegetable/p1.jpg"
+                        url : "import_export/vegetable/p6.jpg"
                     },
                     {
-                        url : "import_export/vegetable/p1.jpg"
+                        url : "import_export/vegetable/p7.jpg"
                     },
                     {
-                        url : "import_export/vegetable/p1.jpg"
+                        url : "import_export/vegetable/p8.jpg"
                     },
                     {
-                        url : "import_export/vegetable/p1.jpg"
+                        url : "import_export/vegetable/p9.jpg"
                     },
                     {
-                        url : "import_export/vegetable/p1.jpg"
+                        url : "import_export/vegetable/p10.jpg"
                     },
                 ]
             },
             {
-                title : 'FruitS',
-                content : '',
+                title : 'Fruits',
+                nick_title : 'fruits',
+                content : 'The Paragraphs module in Drupal provides editors with a component driven architecture for building pages. Morpht has been developing Paragraph approaches to site building since 2015. This case study captures some of the content from a Drupal 7 "Paragraphs Demo" site which was built to showcase what could be done with Paragraphs.',
                 cover_photo : 'import_export/fruits/fruits.jpg',
                 photos : [
                     {
-                        url : "import_export/fruits"
+                        url : "import_export/fruits/p1.jpg"
                     },
                     {
-                        url : "import_export/fruits"
+                        url : "import_export/fruits/p2.jpg"
                     },
                 ]
             },
             {
                 title : 'Fish',
-                content : '',
+                nick_title : 'fish',
+                content : 'The Paragraphs module in Drupal provides editors with a component driven architecture for building pages. Morpht has been developing Paragraph approaches to site building since 2015. This case study captures some of the content from a Drupal 7 "Paragraphs Demo" site which was built to showcase what could be done with Paragraphs.',
                 cover_photo : 'import_export/fish/fish.jpg',
                 photos : [
                     {
-                        url : "import_export/fish"
+                        url : "import_export/fish/p1.jpg"
                     },
                     {
-                        url : "import_export/fish"
+                        url : "import_export/fish/p2.jpg"
                     },
                     {
-                        url : "import_export/fish"
+                        url : "import_export/fish/p3.jpg"
                     },
                     {
-                        url : "import_export/fish"
+                        url : "import_export/fish/p4.jpg"
                     },
                     {
-                        url : "import_export/fish"
+                        url : "import_export/fish/p5.jpg"
                     },
                     {
-                        url : "import_export/fish"
+                        url : "import_export/fish/p6.jpg"
                     },
                 ]
             },
             {
                 title : 'Spices',
-                content : '',
+                nick_title : 'spices',
+                content : 'The Paragraphs module in Drupal provides editors with a component driven architecture for building pages. Morpht has been developing Paragraph approaches to site building since 2015. This case study captures some of the content from a Drupal 7 "Paragraphs Demo" site which was built to showcase what could be done with Paragraphs.',
                 cover_photo : 'import_export/spices/spices.jpg',
                 photos : [
                     {
-                        url : "import_export/spices"
+                        url : "import_export/spices/p1.jpg"
                     },
                     {
-                        url : "import_export/spices"
+                        url : "import_export/spices/p2.jpg"
                     },
                     {
-                        url : "import_export/spices"
+                        url : "import_export/spices/p3.jpg"
                     },
                     {
-                        url : "import_export/spices"
+                        url : "import_export/spices/p4.jpg"
                     },
                     {
-                        url : "import_export/spices"
+                        url : "import_export/spices/p5.jpg"
                     },
                     {
-                        url : "import_export/spices"
+                        url : "import_export/spices/p6.jpg"
                     },
                     {
-                        url : "import_export/spices"
+                        url : "import_export/spices/p7.jpg"
                     }
                 ]
             },
