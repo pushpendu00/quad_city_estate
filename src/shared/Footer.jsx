@@ -30,6 +30,7 @@ export const Footer = () => {
                     <Icon icon="mdi:location" width="30" height="30"  style={{color: 'black'}} />
                     <span>Rautari Chowmatha, Nadia, WB, India, 741248</span>
                   </a></li>
+                  {/* mail */}
 
                   <a className='hover:text-[#d9d9d9] cursor-pointer text-[18px] flex gap-3' href="mailto:dxbqcs@gmail.com">
             <Icon icon="material-symbols:mail" width="30" height="30"  style={{color: 'black'}} />
