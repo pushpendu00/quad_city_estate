@@ -5,6 +5,8 @@ import { Footer } from "./shared/Footer";
 import { Services } from "./router/Services";
 import {ServicesEach} from './router/ServicesEach'
 import { ServicesCategory } from "./router/ServicesCategory";
+// import '../src/assets/js/particle';
+// import '../src/assets/css/particle.css'
 
 function App() {
 
@@ -16,14 +18,16 @@ function App() {
       <Navbar />
 
       {/* Main content */}
-      <div className="main w-full pt-20 pb-20">
+      <div id="main" className="main w-full pt-20 pb-20">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/services" element={<Services />} />
             <Route path="services/:item?" element={<ServicesEach />} />
             <Route path="services/:item?/:item?" element={<ServicesCategory />} />
             <Route path="*" element={<Navigate to={'/'}/>} />
+            {/* <Route path="/particle" element={<Particales />} /> */}
           </Routes>
+
       </div>
 
       {/* Footer Section */}

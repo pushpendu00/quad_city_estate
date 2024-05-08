@@ -17,9 +17,9 @@ export const Navbar = () => {
         
         <NavLink to={'/'} className='nav-profile-name flex items-center gap-3 h-full text-2xl font-bold text-red-600'>
             <div className='h-full'>
-            <img className='h-full aspect-square' src={require('../assets/quad-city.jpg')} alt="" />
+              <img className='h-full aspect-square' src={require('../assets/quad-city.jpg')} alt="" />
             </div>
-            <div className='Site-Logo flex flex-col md:flex-row'>
+            <div className='Site-Logo flex flex-col md:flex-row text-[25px] md:text-[20px] lg:text-[30px]'>
               <span>QUAD CITY ESTATE</span>
               <span className='w-full md:w-auto flex justify-center'>
                 <span className='w-0 md:w-auto'>&nbsp;</span>
@@ -28,7 +28,7 @@ export const Navbar = () => {
             </div>
         </NavLink>
         
-        <ul className='nav-list w-0 overflow-hidden md:w-auto md:flex md:gap-2 lg:gap-5'>
+        <ul className='nav-list w-0 overflow-hidden md:w-auto md:flex md:gap-2 lg:gap-5 items-center'>
             <NavLink to={'/'} style={({isActive})=>({color: isActive ? "#ff5757" : "#000",})} className='px-1 py-1 cursor-pointer text-[16px] lg:text-[18px] font-semibold hover:text-[#ff5757] border-transparent'>Home</NavLink>
             {/* <NavLink to={'/services'} style={({isActive})=>({color: isActive ? "#ff5757" : "#000",})} className='cursor-pointer text-[16px] lg:text-[18px] font-semibold hover:text-[#ff5757] border-transparent'>Our Service</NavLink> */}
             

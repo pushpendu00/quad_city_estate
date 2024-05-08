@@ -35,8 +35,8 @@ export const ServicesEach = () => {
   return (
     <div className='servises-Each w-full flex flex-col items-center'>
 
-      <header className='w-[90%] py-10 font-semibold flex flex-col items-center mb-5'>
-        <div className='w-full md:w-full border-b-[1px] border-black'></div>
+      <header className='w-[90%] font-semibold flex flex-col items-center'>
+        {/* <div className='w-full md:w-full border-b-[1px] border-black'></div> */}
         {/* <div className='text-3xl flex font-serif px-5 py-10'>
             <span>Wellcome</span>
             <span>&nbsp;To</span>
@@ -51,6 +51,11 @@ export const ServicesEach = () => {
         </div>
         <div className='w-full md:w-full border-b-[1px] border-black'></div>
       </header>
+
+        {/* content */}
+        <div className='w-[90%] md:w-[80%] lg:w-[70%] text-justify py-3'>
+            {serviceData.content2}
+        </div>
 
       <div className='w-[90%] md:w-[90%] lg:w-[90%] flex flex-wrap justify-center gap-10'>
         {serviceData?.category?.map((item,j)=>(

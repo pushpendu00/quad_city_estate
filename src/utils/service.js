@@ -52,7 +52,8 @@ export const services = [
                 ]
             }
         ],
-        content : 'S. S. Civil Construction Pvt. Ltd. (formerly S. S. Construction)was founded in 1984 as contracting company in Civil Construction and Structural Engineering. Some of the most outstanding projects we have executed are Construction of Water Treatment Plant at Chitpur for Eastern Railway; Construction of Kolkata Station Building and its Circulating .',
+        content1 : "We don't just build structures, we build futures.",
+        content2 : "",
         photos : [
             {
                 url : "Construction/flat/flat.jpg"
@@ -212,7 +213,8 @@ export const services = [
                 ]
             },
         ],
-        content : 'S. S. Civil Construction Pvt. Ltd. (formerly S. S. Construction)was founded in 1984 as contracting company in Civil Construction and Structural Engineering. Some of the most outstanding projects we have executed are Construction of Water Treatment Plant at Chitpur for Eastern Railway; Construction of Kolkata Station Building and its Circulating .',
+        content1 : "Where Borders Blur and Opportunities Bloom.",
+        content2 : "Geography won't hold you back. Quad City Estate Pvt. Ltd. connects communities and businesses, building the transportation infrastructure that fuels progress and prosperity across worldwide.",
         photos : [
             {
                 url : "import_export/fruits/p1.jpg"
